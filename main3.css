@@ -1,0 +1,147 @@
+.about {
+    flex-direction: column;
+}
+.list {
+    flex-direction: column;
+}
+.ul{        
+    padding-left: 5px;
+    list-style: none;
+}
+.card-team {
+    flex-direction: column;
+    justify-content: center;  
+}
+.card-t{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    padding: 0;    
+}
+.card-t img {
+    height: 150px;
+    width: 270px;
+}
+.card-t h4{
+    padding: 0;
+    margin: 2px;
+    font-weight: bold;
+}
+.card-t h6{
+    padding: 0;
+    margin: 2px;
+}
+.card-t p{
+    padding: 0;
+    margin: 2px;
+}
+.card-t p:last-child{
+    font-style: italic;
+}
+.img-article img{
+    height: 250px;
+    width: 300px;
+}
+
+.fotos {
+    flex-direction: row;          
+}
+.flex img{
+    width: 310px;
+    height: 270px;
+}
+.press{
+    background-color: rgb(102, 184, 102);
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    border-bottom-color: lightgray;
+    border-right-color: lightgrey;        
+    font-size: 0.9rem;
+    color:rgb(235, 232, 232);
+    margin: 5px;
+
+}
+.input {
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.footer{
+    background-color: grey;
+    height: 20px;
+    color:white;
+    text-align: center;    
+    font-size: 0.7rem;    
+}
+
+h1{
+    color: white;
+    font-size: 1rem;
+}
+
+.section .press{  
+    width: 150px;
+    margin-left: 100px;
+   
+}
+
+.header {
+    background-color: #000;
+    height: 35px;
+    width:350px;
+    margin: 0;
+    font-size: 0.6rem;
+    
+}
+.tel {
+    width: 300px;
+    color: #fff;
+}
+.search{
+    background-color:transparent;
+    color:#fff;
+    border: none; 
+    font-size: 0.6rem;
+    width: 180px;
+       
+}
+.btn-search{
+    background-color: transparent;
+    color: #fff; 
+    border: none;        
+}
+.serch{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    justify-content: space-between;
+    width: 220px; 
+    font-size: 0.6rem;    
+}
+.nav{
+    display: none;
+}
+.nav2{
+    display: block;
+}
+.f-nav2{
+    width:350px;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: rgb(81, 211, 81);
+    border: 1px solid #fff;
+}
+a {
+    display: none;
+}
+.f-nav2:hover a{
+  display: inline;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.f-nav2:visited a{
+    display: none;
+}
